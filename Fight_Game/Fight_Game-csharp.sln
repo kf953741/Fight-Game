@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{413373A3-9F31-838E-BE5C-76CF1CE0CEC4}") = "Fight_Game", "Assembly-CSharp-vs.csproj", "{D3E9CD91-B5A5-C66C-519E-F4723C0A7C56}"
+EndProject
 Project("{413373A3-9F31-838E-BE5C-76CF1CE0CEC4}") = "Fight_Game", "Assembly-CSharp-Editor-vs.csproj", "{CBEC76DD-DD5F-3B81-B809-DBC2649A81E1}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3E9CD91-B5A5-C66C-519E-F4723C0A7C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E9CD91-B5A5-C66C-519E-F4723C0A7C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E9CD91-B5A5-C66C-519E-F4723C0A7C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E9CD91-B5A5-C66C-519E-F4723C0A7C56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CBEC76DD-DD5F-3B81-B809-DBC2649A81E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CBEC76DD-DD5F-3B81-B809-DBC2649A81E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBEC76DD-DD5F-3B81-B809-DBC2649A81E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
+						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
