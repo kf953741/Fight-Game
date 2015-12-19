@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FllowPlayer.cs" />
+     <Compile Include="Assets\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
      <Compile Include="Assets\Scripts\UIEventListener.cs" />
  <Reference Include="UnityEngine.UI">
