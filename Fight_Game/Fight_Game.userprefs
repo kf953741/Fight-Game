@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Assets/Scripts/UIEventListener.cs" Line="16" Column="32" />
       <File FileName="Assets/Scripts/MenuController.cs" Line="21" Column="28" />
-      <File FileName="Assets/FllowPlayer.cs" Line="18" Column="71" />
+      <File FileName="Assets/FllowPlayer.cs" Line="14" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
