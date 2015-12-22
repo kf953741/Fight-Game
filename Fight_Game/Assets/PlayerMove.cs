@@ -14,6 +14,11 @@ public class PlayerMove : MonoBehaviour {
 	void Update () {
 		float h = Input.GetAxis("Horizontal");
 		float v = Input.GetAxis("Vertical");
+		if(Joystick.v!=0||Joystick.h!=0)
+		{
+			v = Joystick.v;
+			h = Joystick.h;
+		}
 		if(Mathf.Abs(h)>0.01||Mathf.Abs(v)>0.01)
 		{
 			Vector3 targetPos =new Vector3(h,0,v);

@@ -36,6 +36,7 @@ public class MenuController : MonoBehaviour {
 		UIEventListener.Get(GameObject.Find(@"GameObject/btn_purple").gameObject).onClick = OnChangePurple;
 		UIEventListener.Get(GameObject.Find(@"GameObject/btn_lightGreen").gameObject).onClick = OnChangeLightGreen;
 		UIEventListener.Get(GameObject.Find(@"GameObject/btn_green").gameObject).onClick = OnChangeGreen;
+		UIEventListener.Get(GameObject.Find(@"btn_play").gameObject).onClick = OnClickPlay;
 		btnHeadChange.onClick.AddListener(OnHeadMeshChange);
 		colorArray = new Color[]{Color.blue,Color.green,purple,Color.red,Color.cyan};
 		DontDestroyOnLoad(gameObject);
@@ -98,7 +99,7 @@ public class MenuController : MonoBehaviour {
 		PlayerPrefs.SetInt("HandMeshIndex",handMeshIndex);
 		PlayerPrefs.SetInt("ColorIndex",colorIndex);
 	}
-	public void OnClickPlay()
+	public void OnClickPlay(GameObject go)
 	{
 		Save();
 		Application.LoadLevel(1);
